@@ -1,0 +1,127 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body {
+    background: #dfa5a5;
+    color: #424040;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Hero */
+.hero {
+    background: #222;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+/* Hoodies */
+.hoodies-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.hoodie-card {
+    background: white;
+    width: 260px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.hoodie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* About */
+.about-text {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Contact */
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(133, 131, 131);
+}
+
+.contact-form button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #494747;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+video   {
+    background: #ffffff;
+    color: #ddd;
+    text-align:center ;
+    padding: 15px;
+    margin-top: 20px; 
+    border: 2px solid #ddd;
+border-radius: 10px;
+display: block;
+margin: 20px auto;
+}
